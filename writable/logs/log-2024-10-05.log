@@ -1,0 +1,526 @@
+DEBUG - 2024-10-05 04:04:56 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 04:04:56 --> Locale set to default: id
+INFO - 2024-10-05 04:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 04:04:59 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 04:04:59 --> Locale set to default: id
+DEBUG - 2024-10-05 04:05:00 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 04:05:00 --> Locale set to: id
+INFO - 2024-10-05 04:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 04:05:05 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 04:05:05 --> Locale set to default: id
+INFO - 2024-10-05 04:05:05 --> CSRF token verified.
+INFO - 2024-10-05 04:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 04:05:05 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 04:05:05 --> Locale set to default: id
+INFO - 2024-10-05 04:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 04:05:06 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 04:05:06 --> Locale set to default: id
+INFO - 2024-10-05 04:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:52:01 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:52:01 --> Locale set to: id
+INFO - 2024-10-05 05:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:52:03 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 APPPATH\Controllers\user\Homectrl.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:52:19 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:52:19 --> Locale set to: id
+INFO - 2024-10-05 05:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:52:19 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 APPPATH\Controllers\user\Homectrl.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:52:21 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:52:21 --> Locale set to: id
+INFO - 2024-10-05 05:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:52:21 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 APPPATH\Controllers\user\Homectrl.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:52:26 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:52:26 --> Locale set to: id
+INFO - 2024-10-05 05:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:52:26 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 APPPATH\Controllers\user\Homectrl.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:52:30 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:52:30 --> Locale set to: id
+INFO - 2024-10-05 05:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:52:30 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 APPPATH\Controllers\user\Homectrl.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:52:36 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:52:36 --> Locale set to default: id
+DEBUG - 2024-10-05 05:52:36 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:52:36 --> Locale set to: id
+INFO - 2024-10-05 05:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:52:36 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 APPPATH\Controllers\user\Homectrl.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:52:37 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:52:37 --> Locale set to default: id
+DEBUG - 2024-10-05 05:52:37 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:52:37 --> Locale set to: id
+INFO - 2024-10-05 05:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:52:37 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 APPPATH\Controllers\user\Homectrl.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:53:06 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:53:06 --> Locale set to default: id
+DEBUG - 2024-10-05 05:53:07 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:53:07 --> Locale set to: id
+INFO - 2024-10-05 05:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:53:24 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:53:24 --> Locale set to: id
+INFO - 2024-10-05 05:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:53:24 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 APPPATH\Controllers\user\Homectrl.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:53:26 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:53:26 --> Locale set to: en
+INFO - 2024-10-05 05:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:53:26 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 APPPATH\Controllers\user\Homectrl.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:53:26 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:53:26 --> Locale set to: en
+INFO - 2024-10-05 05:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:53:26 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 51.
+ 1 APPPATH\Controllers\user\Homectrl.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:55:38 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:55:38 --> Locale set to: en
+INFO - 2024-10-05 05:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:55:38 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 53.
+ 1 APPPATH\Controllers\user\Homectrl.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:55:39 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:55:39 --> Locale set to: id
+INFO - 2024-10-05 05:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 05:55:40 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 53.
+ 1 APPPATH\Controllers\user\Homectrl.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 05:55:50 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:55:50 --> Locale set to: en
+INFO - 2024-10-05 05:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:55:56 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:55:56 --> Locale set to default: id
+DEBUG - 2024-10-05 05:55:56 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:55:56 --> Locale set to: id
+INFO - 2024-10-05 05:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:56:18 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:56:18 --> Locale set to: id
+INFO - 2024-10-05 05:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:56:30 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:56:30 --> Locale set to: id
+INFO - 2024-10-05 05:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:56:57 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:56:57 --> Locale set to: id
+INFO - 2024-10-05 05:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:57:08 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:57:08 --> Locale set to: id
+INFO - 2024-10-05 05:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:57:21 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:57:21 --> Locale set to: id
+INFO - 2024-10-05 05:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:57:24 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:57:24 --> Locale set to: id
+INFO - 2024-10-05 05:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:58:04 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:58:04 --> Locale set to: id
+INFO - 2024-10-05 05:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:58:07 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:58:07 --> Locale set to: en
+INFO - 2024-10-05 05:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:58:14 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:58:14 --> Locale set to: en
+INFO - 2024-10-05 05:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:58:18 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:58:18 --> Locale set to: id
+INFO - 2024-10-05 05:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:58:22 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:58:22 --> Locale set to: id
+INFO - 2024-10-05 05:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 05:58:25 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 05:58:25 --> Locale set to: en
+INFO - 2024-10-05 05:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:01:03 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:03 --> Locale set to: id
+INFO - 2024-10-05 06:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:01:06 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:06 --> Locale set to: en
+INFO - 2024-10-05 06:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:01:06 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:06 --> Locale set to default: id
+INFO - 2024-10-05 06:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 06:01:06 --> Undefined array key "meta_title_d"
+in APPPATH\Controllers\user\Homectrl.php on line 53.
+ 1 APPPATH\Controllers\user\Homectrl.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_d"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 06:01:08 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:08 --> Locale set to: id
+INFO - 2024-10-05 06:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 06:01:08 --> Undefined array key "meta_title_d"
+in APPPATH\Controllers\user\Homectrl.php on line 53.
+ 1 APPPATH\Controllers\user\Homectrl.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_d"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 06:01:10 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:10 --> Locale set to: en
+INFO - 2024-10-05 06:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 06:01:10 --> Undefined array key "meta_title_d"
+in APPPATH\Controllers\user\Aboutctrl.php on line 41.
+ 1 APPPATH\Controllers\user\Aboutctrl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_d"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Aboutctrl.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 06:01:47 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:47 --> Locale set to default: id
+DEBUG - 2024-10-05 06:01:47 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:47 --> Locale set to: id
+INFO - 2024-10-05 06:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:01:49 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:49 --> Locale set to: en
+INFO - 2024-10-05 06:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:01:53 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:53 --> Locale set to: id
+INFO - 2024-10-05 06:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:01:59 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:59 --> Locale set to: en
+INFO - 2024-10-05 06:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:01:59 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:01:59 --> Locale set to default: id
+INFO - 2024-10-05 06:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 06:01:59 --> Undefined array key "meta_title_d"
+in APPPATH\Controllers\user\Homectrl.php on line 53.
+ 1 APPPATH\Controllers\user\Homectrl.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_d"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 06:03:52 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:03:52 --> Locale set to default: id
+INFO - 2024-10-05 06:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 06:03:52 --> Undefined array key "meta_title_d"
+in APPPATH\Controllers\user\Homectrl.php on line 53.
+ 1 APPPATH\Controllers\user\Homectrl.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_d"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 06:03:59 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:03:59 --> Locale set to default: id
+DEBUG - 2024-10-05 06:03:59 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:03:59 --> Locale set to: id
+INFO - 2024-10-05 06:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:01 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:01 --> Locale set to default: id
+INFO - 2024-10-05 06:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:03 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:03 --> Locale set to default: id
+INFO - 2024-10-05 06:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:03 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:03 --> Locale set to: en
+INFO - 2024-10-05 06:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:06 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:06 --> Locale set to: en
+INFO - 2024-10-05 06:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:40 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:40 --> Locale set to default: id
+INFO - 2024-10-05 06:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:41 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:41 --> Locale set to: id
+INFO - 2024-10-05 06:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:43 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:43 --> Locale set to: id
+INFO - 2024-10-05 06:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:43 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:43 --> Locale set to: id
+INFO - 2024-10-05 06:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:46 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:46 --> Locale set to default: id
+INFO - 2024-10-05 06:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:46 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:46 --> Locale set to: en
+INFO - 2024-10-05 06:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:48 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:48 --> Locale set to: en
+INFO - 2024-10-05 06:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:04:48 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:04:48 --> Locale set to: en
+INFO - 2024-10-05 06:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:15:37 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:15:37 --> Locale set to: en
+INFO - 2024-10-05 06:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:15:57 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:15:57 --> Locale set to default: id
+INFO - 2024-10-05 06:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:15:57 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:15:57 --> Locale set to: id
+INFO - 2024-10-05 06:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:15:58 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:15:58 --> Locale set to: en
+INFO - 2024-10-05 06:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:15:58 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:15:58 --> Locale set to default: id
+DEBUG - 2024-10-05 06:15:58 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:15:58 --> Locale set to: id
+INFO - 2024-10-05 06:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:16:01 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:16:01 --> Locale set to: id
+INFO - 2024-10-05 06:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:16:01 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:16:01 --> Locale set to: id
+INFO - 2024-10-05 06:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:19:24 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:19:24 --> Locale set to default: id
+INFO - 2024-10-05 06:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:19:24 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:19:24 --> Locale set to: en
+INFO - 2024-10-05 06:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:19:26 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:19:26 --> Locale set to: en
+INFO - 2024-10-05 06:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:19:26 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:19:26 --> Locale set to: en
+INFO - 2024-10-05 06:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:19:28 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:19:28 --> Locale set to: en
+INFO - 2024-10-05 06:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:19:32 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:19:32 --> Locale set to: en
+INFO - 2024-10-05 06:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:19:35 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:19:35 --> Locale set to: en
+INFO - 2024-10-05 06:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:19:35 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:19:35 --> Locale set to: en
+INFO - 2024-10-05 06:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:20:16 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:20:16 --> Locale set to default: id
+INFO - 2024-10-05 06:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:20:16 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:20:16 --> Locale set to default: id
+INFO - 2024-10-05 06:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:20:21 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:20:21 --> Locale set to default: id
+INFO - 2024-10-05 06:20:21 --> CSRF token verified.
+INFO - 2024-10-05 06:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:20:21 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:20:21 --> Locale set to default: id
+INFO - 2024-10-05 06:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:20:22 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:20:22 --> Locale set to default: id
+INFO - 2024-10-05 06:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:20:23 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:20:23 --> Locale set to default: id
+INFO - 2024-10-05 06:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:20:56 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:20:56 --> Locale set to: en
+INFO - 2024-10-05 06:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 06:20:56 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 53.
+ 1 APPPATH\Controllers\user\Homectrl.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 06:21:08 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:21:08 --> Locale set to: en
+INFO - 2024-10-05 06:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 06:21:08 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 53.
+ 1 APPPATH\Controllers\user\Homectrl.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 06:21:21 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:21:21 --> Locale set to: en
+INFO - 2024-10-05 06:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-05 06:21:21 --> Undefined array key "meta_title_favicon.ico"
+in APPPATH\Controllers\user\Homectrl.php on line 53.
+ 1 APPPATH\Controllers\user\Homectrl.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meta_title_favicon.ico"', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Homectrl.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-10-05 06:21:29 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:21:29 --> Locale set to default: id
+DEBUG - 2024-10-05 06:21:30 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:21:30 --> Locale set to: id
+INFO - 2024-10-05 06:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:21:32 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:21:32 --> Locale set to: en
+INFO - 2024-10-05 06:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:21:35 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:21:35 --> Locale set to: en
+INFO - 2024-10-05 06:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:26 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:26 --> Locale set to: en
+INFO - 2024-10-05 06:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:28 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:28 --> Locale set to: en
+INFO - 2024-10-05 06:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:32 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:32 --> Locale set to: en
+INFO - 2024-10-05 06:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:32 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:32 --> Locale set to: en
+INFO - 2024-10-05 06:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:34 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:34 --> Locale set to: en
+INFO - 2024-10-05 06:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:38 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:38 --> Locale set to: id
+INFO - 2024-10-05 06:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:38 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:38 --> Locale set to: id
+INFO - 2024-10-05 06:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:41 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:41 --> Locale set to: id
+INFO - 2024-10-05 06:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:53 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:53 --> Locale set to default: id
+INFO - 2024-10-05 06:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:53 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:53 --> Locale set to: en
+INFO - 2024-10-05 06:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:55 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:55 --> Locale set to: en
+INFO - 2024-10-05 06:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:23:57 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:23:57 --> Locale set to: en
+INFO - 2024-10-05 06:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:24:06 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:24:06 --> Locale set to default: id
+INFO - 2024-10-05 06:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:24:06 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:24:06 --> Locale set to default: id
+INFO - 2024-10-05 06:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:24:06 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:24:06 --> Locale set to default: id
+INFO - 2024-10-05 06:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:24:13 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:24:13 --> Locale set to default: id
+INFO - 2024-10-05 06:24:13 --> CSRF token verified.
+INFO - 2024-10-05 06:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:24:13 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:24:13 --> Locale set to default: id
+INFO - 2024-10-05 06:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:24:14 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:24:14 --> Locale set to default: id
+INFO - 2024-10-05 06:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:24:15 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:24:15 --> Locale set to default: id
+INFO - 2024-10-05 06:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:24:18 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:24:18 --> Locale set to default: id
+INFO - 2024-10-05 06:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:25:30 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:25:30 --> Locale set to default: id
+INFO - 2024-10-05 06:25:30 --> CSRF token verified.
+INFO - 2024-10-05 06:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:25:30 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:25:30 --> Locale set to default: id
+INFO - 2024-10-05 06:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:25:36 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:25:36 --> Locale set to default: id
+INFO - 2024-10-05 06:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:25:40 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:25:40 --> Locale set to default: id
+INFO - 2024-10-05 06:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:25:47 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:25:47 --> Locale set to default: id
+INFO - 2024-10-05 06:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:26:40 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:26:40 --> Locale set to default: id
+INFO - 2024-10-05 06:26:40 --> CSRF token verified.
+INFO - 2024-10-05 06:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:26:40 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:26:40 --> Locale set to default: id
+INFO - 2024-10-05 06:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:27:05 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:27:05 --> Locale set to default: id
+INFO - 2024-10-05 06:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:30:04 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:30:04 --> Locale set to default: id
+INFO - 2024-10-05 06:30:04 --> CSRF token verified.
+INFO - 2024-10-05 06:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:30:05 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:30:05 --> Locale set to default: id
+INFO - 2024-10-05 06:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-10-05 06:30:09 --> LocaleFilter triggered.
+DEBUG - 2024-10-05 06:30:09 --> Locale set to default: id
+INFO - 2024-10-05 06:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,1785 @@
+DEBUG - 2024-09-27 02:19:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:19:46 --> Locale set to default: id
+DEBUG - 2024-09-27 02:19:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:19:47 --> Locale set to: id
+INFO - 2024-09-27 02:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-27 02:24:35 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=14892 in C:\projectcomp\projek5\elecompid\41\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\projectcomp\\...', 173)
+#1 C:\projectcomp\projek5\elecompid\41\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'u1658729_elecom...', 3306, '', 0)
+#2 C:\projectcomp\projek5\elecompid\41\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\projectcomp\projek5\elecompid\41\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\projectcomp\projek5\elecompid\41\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\projectcomp\projek5\elecompid\41\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\projectcomp\projek5\elecompid\41\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\projectcomp\projek5\elecompid\41\app\Controllers\user\Homectrl.php(29): CodeIgniter\BaseModel->findAll()
+#8 C:\projectcomp\projek5\elecompid\41\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#9 C:\projectcomp\projek5\elecompid\41\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#10 C:\projectcomp\projek5\elecompid\41\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\projectcomp\projek5\elecompid\41\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\projectcomp\projek5\elecompid\41\system\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\...')
+#13 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\projectcomp\projek5\elecompid\41\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\projectcomp\projek5\elecompid\41\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'u1658729_elecom...', 3306, '', 0)
+#1 C:\projectcomp\projek5\elecompid\41\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\projectcomp\projek5\elecompid\41\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\projectcomp\projek5\elecompid\41\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\projectcomp\projek5\elecompid\41\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\projectcomp\projek5\elecompid\41\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\projectcomp\projek5\elecompid\41\app\Controllers\user\Homectrl.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\projectcomp\projek5\elecompid\41\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#8 C:\projectcomp\projek5\elecompid\41\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#9 C:\projectcomp\projek5\elecompid\41\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\projectcomp\projek5\elecompid\41\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\projectcomp\projek5\elecompid\41\system\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\projectcomp\projek5\elecompid\41\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\projectcomp\projek5\elecompid\41\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\projectcomp\projek5\elecompid\41\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\projectcomp\projek5\elecompid\41\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\projectcomp\projek5\elecompid\41\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\projectcomp\projek5\elecompid\41\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\projectcomp\projek5\elecompid\41\app\Controllers\user\Homectrl.php(29): CodeIgniter\BaseModel->findAll()
+#6 C:\projectcomp\projek5\elecompid\41\system\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+#7 C:\projectcomp\projek5\elecompid\41\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+#8 C:\projectcomp\projek5\elecompid\41\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\projectcomp\projek5\elecompid\41\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\projectcomp\projek5\elecompid\41\system\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\...')
+#11 {main}
+CRITICAL - 2024-09-27 02:24:35 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_profil`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\user\Homectrl.php(29): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 02:24:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:24:38 --> Locale set to default: id
+DEBUG - 2024-09-27 02:24:54 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:24:54 --> Locale set to default: id
+DEBUG - 2024-09-27 02:24:54 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:24:54 --> Locale set to: id
+INFO - 2024-09-27 02:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:24:59 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:24:59 --> Locale set to: en
+INFO - 2024-09-27 02:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:25:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:25:03 --> Locale set to default: id
+INFO - 2024-09-27 02:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:25:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:25:03 --> Locale set to: id
+INFO - 2024-09-27 02:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:25:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:25:06 --> Locale set to: id
+INFO - 2024-09-27 02:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:25:11 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:25:11 --> Locale set to: id
+INFO - 2024-09-27 02:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:26:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:26:36 --> Locale set to: id
+INFO - 2024-09-27 02:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:26:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:26:39 --> Locale set to: id
+INFO - 2024-09-27 02:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 02:26:39 --> Undefined property: stdClass::$title_website_in
+in APPPATH\Controllers\user\Aboutctrl.php on line 37.
+ 1 APPPATH\Controllers\user\Aboutctrl.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$title_website_in', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Aboutctrl.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 02:27:55 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:27:55 --> Locale set to: id
+INFO - 2024-09-27 02:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 02:27:55 --> Call to undefined function App\Controllers\user\character_limiter()
+in APPPATH\Controllers\user\Aboutctrl.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Aboutctrl->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Aboutctrl))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 02:29:18 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:29:18 --> Locale set to: id
+INFO - 2024-09-27 02:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:29:23 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:29:23 --> Locale set to: id
+INFO - 2024-09-27 02:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:29:25 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:29:25 --> Locale set to: id
+INFO - 2024-09-27 02:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:29:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:29:28 --> Locale set to default: id
+INFO - 2024-09-27 02:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:29:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:29:28 --> Locale set to: en
+INFO - 2024-09-27 02:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:29:31 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:29:31 --> Locale set to default: id
+INFO - 2024-09-27 02:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:29:32 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:29:32 --> Locale set to: id
+INFO - 2024-09-27 02:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:29:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:29:35 --> Locale set to: id
+INFO - 2024-09-27 02:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:29:37 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:29:37 --> Locale set to: id
+INFO - 2024-09-27 02:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:29:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:29:39 --> Locale set to: id
+INFO - 2024-09-27 02:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:35:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:35:04 --> Locale set to: id
+INFO - 2024-09-27 02:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:35:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:35:06 --> Locale set to default: id
+INFO - 2024-09-27 02:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:35:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:35:06 --> Locale set to: en
+INFO - 2024-09-27 02:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:35:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:35:12 --> Locale set to: en
+INFO - 2024-09-27 02:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:35:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:35:12 --> Locale set to default: id
+INFO - 2024-09-27 02:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:35:15 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:35:15 --> Locale set to default: id
+INFO - 2024-09-27 02:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:35:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:35:19 --> Locale set to default: id
+INFO - 2024-09-27 02:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:35:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:35:22 --> Locale set to default: id
+INFO - 2024-09-27 02:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:35:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:35:46 --> Locale set to default: id
+DEBUG - 2024-09-27 02:35:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:35:48 --> Locale set to default: id
+INFO - 2024-09-27 02:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:36:05 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:36:05 --> Locale set to default: id
+INFO - 2024-09-27 02:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:36:08 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:36:08 --> Locale set to default: id
+INFO - 2024-09-27 02:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:36:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:36:12 --> Locale set to default: id
+INFO - 2024-09-27 02:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:37:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:37:28 --> Locale set to default: id
+INFO - 2024-09-27 02:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:37:31 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:37:31 --> Locale set to default: id
+INFO - 2024-09-27 02:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:37:33 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:37:33 --> Locale set to default: id
+INFO - 2024-09-27 02:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:37:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:37:35 --> Locale set to default: id
+INFO - 2024-09-27 02:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:37:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:37:36 --> Locale set to default: id
+INFO - 2024-09-27 02:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:37:42 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:37:42 --> Locale set to default: id
+INFO - 2024-09-27 02:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:38:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:38:12 --> Locale set to default: id
+INFO - 2024-09-27 02:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 02:40:15 --> "yourLocaleFilter" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('yourLocaleFilter')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('yourLocaleFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+CRITICAL - 2024-09-27 02:40:17 --> "yourLocaleFilter" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('yourLocaleFilter')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('yourLocaleFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+CRITICAL - 2024-09-27 02:40:19 --> "yourLocaleFilter" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('yourLocaleFilter')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('yourLocaleFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 02:40:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:40:22 --> Locale set to default: id
+CRITICAL - 2024-09-27 02:40:23 --> "yourLocaleFilter" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('yourLocaleFilter')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('yourLocaleFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 02:40:24 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:40:24 --> Locale set to default: id
+CRITICAL - 2024-09-27 02:40:24 --> "yourLocaleFilter" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('yourLocaleFilter')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('yourLocaleFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 02:43:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:43:28 --> Locale set to: id
+INFO - 2024-09-27 02:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:45:18 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:45:18 --> Locale set to: id
+INFO - 2024-09-27 02:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:45:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:45:22 --> Locale set to: id
+INFO - 2024-09-27 02:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:45:26 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:45:26 --> Locale set to: id
+INFO - 2024-09-27 02:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:45:31 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:45:31 --> Locale set to default: id
+DEBUG - 2024-09-27 02:45:31 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:45:31 --> Locale set to: id
+INFO - 2024-09-27 02:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:45:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:45:36 --> Locale set to: id
+INFO - 2024-09-27 02:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:45:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:45:39 --> Locale set to: id
+INFO - 2024-09-27 02:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:45:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:45:48 --> Locale set to: id
+INFO - 2024-09-27 02:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:45:56 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:45:56 --> Locale set to: id
+INFO - 2024-09-27 02:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:17 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:17 --> Locale set to: id
+INFO - 2024-09-27 02:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:20 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:20 --> Locale set to: id
+INFO - 2024-09-27 02:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:23 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:23 --> Locale set to: id
+INFO - 2024-09-27 02:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:24 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:24 --> Locale set to: en
+INFO - 2024-09-27 02:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:27 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:27 --> Locale set to: en
+INFO - 2024-09-27 02:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:37 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:37 --> Locale set to: en
+INFO - 2024-09-27 02:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:41 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:41 --> Locale set to default: id
+INFO - 2024-09-27 02:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:42 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:42 --> Locale set to default: id
+INFO - 2024-09-27 02:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:42 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:42 --> Locale set to default: id
+INFO - 2024-09-27 02:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:42 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:42 --> Locale set to default: id
+INFO - 2024-09-27 02:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:42 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:42 --> Locale set to default: id
+INFO - 2024-09-27 02:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:42 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:42 --> Locale set to default: id
+INFO - 2024-09-27 02:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:42 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:42 --> Locale set to default: id
+INFO - 2024-09-27 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:43 --> Locale set to default: id
+INFO - 2024-09-27 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:43 --> Locale set to default: id
+INFO - 2024-09-27 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:43 --> Locale set to default: id
+INFO - 2024-09-27 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:43 --> Locale set to default: id
+INFO - 2024-09-27 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:43 --> Locale set to default: id
+INFO - 2024-09-27 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:43 --> Locale set to default: id
+INFO - 2024-09-27 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:43 --> Locale set to default: id
+INFO - 2024-09-27 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:43 --> Locale set to default: id
+INFO - 2024-09-27 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:44 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:44 --> Locale set to default: id
+INFO - 2024-09-27 02:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:44 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:44 --> Locale set to default: id
+INFO - 2024-09-27 02:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:44 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:44 --> Locale set to default: id
+INFO - 2024-09-27 02:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:44 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:44 --> Locale set to default: id
+INFO - 2024-09-27 02:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:44 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:44 --> Locale set to default: id
+INFO - 2024-09-27 02:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:45 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:45 --> Locale set to default: id
+INFO - 2024-09-27 02:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:46 --> Locale set to default: id
+INFO - 2024-09-27 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:46 --> Locale set to default: id
+INFO - 2024-09-27 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:46 --> Locale set to default: id
+INFO - 2024-09-27 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:46 --> Locale set to default: id
+INFO - 2024-09-27 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:46 --> Locale set to default: id
+INFO - 2024-09-27 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:46 --> Locale set to default: id
+INFO - 2024-09-27 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:46 --> Locale set to default: id
+INFO - 2024-09-27 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:46 --> Locale set to default: id
+INFO - 2024-09-27 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:47 --> Locale set to default: id
+INFO - 2024-09-27 02:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:47 --> Locale set to default: id
+INFO - 2024-09-27 02:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:47 --> Locale set to default: id
+INFO - 2024-09-27 02:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:47 --> Locale set to default: id
+INFO - 2024-09-27 02:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:47 --> Locale set to default: id
+INFO - 2024-09-27 02:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:47 --> Locale set to default: id
+INFO - 2024-09-27 02:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:47 --> Locale set to default: id
+INFO - 2024-09-27 02:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:47 --> Locale set to default: id
+INFO - 2024-09-27 02:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:48 --> Locale set to default: id
+INFO - 2024-09-27 02:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:48 --> Locale set to default: id
+INFO - 2024-09-27 02:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:48 --> Locale set to default: id
+INFO - 2024-09-27 02:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:46:49 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:46:49 --> Locale set to: en
+INFO - 2024-09-27 02:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:21 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:21 --> Locale set to: en
+INFO - 2024-09-27 02:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:25 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:25 --> Locale set to: en
+INFO - 2024-09-27 02:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:35 --> Locale set to: en
+INFO - 2024-09-27 02:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:37 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:37 --> Locale set to default: id
+INFO - 2024-09-27 02:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:39 --> Locale set to default: id
+INFO - 2024-09-27 02:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:41 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:41 --> Locale set to default: id
+INFO - 2024-09-27 02:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:47 --> Locale set to: id
+INFO - 2024-09-27 02:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:50 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:50 --> Locale set to default: id
+INFO - 2024-09-27 02:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:50 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:50 --> Locale set to: id
+INFO - 2024-09-27 02:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:56 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:56 --> Locale set to: id
+INFO - 2024-09-27 02:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:50:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:50:58 --> Locale set to: id
+INFO - 2024-09-27 02:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:00 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:00 --> Locale set to: id
+INFO - 2024-09-27 02:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:03 --> Locale set to: id
+INFO - 2024-09-27 02:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:06 --> Locale set to default: id
+INFO - 2024-09-27 02:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:06 --> Locale set to: en
+INFO - 2024-09-27 02:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:08 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:08 --> Locale set to: en
+INFO - 2024-09-27 02:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:13 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:13 --> Locale set to: en
+INFO - 2024-09-27 02:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:19 --> Locale set to: en
+INFO - 2024-09-27 02:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:23 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:23 --> Locale set to: en
+INFO - 2024-09-27 02:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:25 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:25 --> Locale set to: en
+INFO - 2024-09-27 02:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:28 --> Locale set to: en
+INFO - 2024-09-27 02:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:33 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:33 --> Locale set to: en
+INFO - 2024-09-27 02:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:47 --> Locale set to: en
+INFO - 2024-09-27 02:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:48 --> Locale set to: en
+INFO - 2024-09-27 02:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:51 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:51 --> Locale set to: en
+INFO - 2024-09-27 02:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:51:52 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:51:52 --> Locale set to: en
+INFO - 2024-09-27 02:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:52:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:52:39 --> Locale set to: en
+INFO - 2024-09-27 02:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:52:40 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:52:40 --> Locale set to: en
+INFO - 2024-09-27 02:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:52:45 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:52:45 --> Locale set to: en
+INFO - 2024-09-27 02:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:55:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:55:04 --> Locale set to default: id
+INFO - 2024-09-27 02:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:55:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:55:04 --> Locale set to: en
+INFO - 2024-09-27 02:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:55:08 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:55:08 --> Locale set to default: id
+INFO - 2024-09-27 02:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:55:08 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:55:08 --> Locale set to: en
+INFO - 2024-09-27 02:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:56:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:56:36 --> Locale set to: en
+INFO - 2024-09-27 02:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:56:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:56:39 --> Locale set to: en
+INFO - 2024-09-27 02:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:56:42 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:56:42 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 02:57:57 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:57:57 --> Locale set to: en
+INFO - 2024-09-27 02:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:58:01 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:58:01 --> Locale set to: en
+INFO - 2024-09-27 02:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:58:05 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:58:05 --> Locale set to: en
+INFO - 2024-09-27 02:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:58:07 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:58:07 --> Locale set to: en
+INFO - 2024-09-27 02:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:59:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:59:04 --> Locale set to: en
+INFO - 2024-09-27 02:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:59:05 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:59:05 --> Locale set to: en
+INFO - 2024-09-27 02:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:59:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:59:12 --> Locale set to: en
+INFO - 2024-09-27 02:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:59:15 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:59:15 --> Locale set to: en
+INFO - 2024-09-27 02:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 02:59:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 02:59:39 --> Locale set to: en
+INFO - 2024-09-27 02:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 02:59:40 --> Call to undefined function uri_string_without_locale()
+in APPPATH\Views\user\layout\nav.php on line 49.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('user/layout/nav', null, true)
+ 4 APPPATH\Views\user\template\template.php(43): CodeIgniter\View\View->include('user/layout/nav')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\projectcomp\\projek5\\elecompid\\41\\app\\Views\\user\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/products/index', [], true)
+ 9 APPPATH\Controllers\user\Productsctrl.php(47): view('user/products/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 03:00:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:00:04 --> Locale set to: en
+INFO - 2024-09-27 03:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 03:00:04 --> Call to undefined function uri_string_without_locale()
+in APPPATH\Views\user\layout\nav.php on line 49.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('user/layout/nav', null, true)
+ 4 APPPATH\Views\user\template\template.php(43): CodeIgniter\View\View->include('user/layout/nav')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\projectcomp\\projek5\\elecompid\\41\\app\\Views\\user\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/products/index', [], true)
+ 9 APPPATH\Controllers\user\Productsctrl.php(47): view('user/products/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 03:00:10 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:00:10 --> Locale set to: en
+INFO - 2024-09-27 03:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 03:00:10 --> Call to undefined function uri_string_without_locale()
+in APPPATH\Views\user\layout\nav.php on line 49.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('user/layout/nav', null, true)
+ 4 APPPATH\Views\user\template\template.php(43): CodeIgniter\View\View->include('user/layout/nav')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\projectcomp\\projek5\\elecompid\\41\\app\\Views\\user\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/products/index', [], true)
+ 9 APPPATH\Controllers\user\Productsctrl.php(47): view('user/products/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 03:00:21 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:00:21 --> Locale set to: en
+INFO - 2024-09-27 03:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 03:00:21 --> Call to undefined function uri_string_without_locale()
+in APPPATH\Views\user\layout\nav.php on line 49.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('user/layout/nav', null, true)
+ 4 APPPATH\Views\user\template\template.php(43): CodeIgniter\View\View->include('user/layout/nav')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\projectcomp\\projek5\\elecompid\\41\\app\\Views\\user\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/products/index', [], true)
+ 9 APPPATH\Controllers\user\Productsctrl.php(47): view('user/products/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 03:00:29 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:00:29 --> Locale set to: en
+INFO - 2024-09-27 03:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 03:00:29 --> Call to undefined function uri_string_without_locale()
+in APPPATH\Views\user\layout\nav.php on line 49.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('user/layout/nav', null, true)
+ 4 APPPATH\Views\user\template\template.php(43): CodeIgniter\View\View->include('user/layout/nav')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\projectcomp\\projek5\\elecompid\\41\\app\\Views\\user\\template\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('user/template/template', [], true)
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user/products/index', [], true)
+ 9 APPPATH\Controllers\user\Productsctrl.php(47): view('user/products/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 03:01:00 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:01:00 --> Locale set to: en
+INFO - 2024-09-27 03:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:01:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:01:06 --> Locale set to: en
+INFO - 2024-09-27 03:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:01:08 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:01:08 --> Locale set to: en
+INFO - 2024-09-27 03:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:01:13 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:01:13 --> Locale set to: en
+INFO - 2024-09-27 03:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:01:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:01:28 --> Locale set to: en
+INFO - 2024-09-27 03:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:01:30 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:01:30 --> Locale set to: en
+INFO - 2024-09-27 03:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:01:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:01:48 --> Locale set to: en
+INFO - 2024-09-27 03:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:03:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:03:43 --> Locale set to: en
+INFO - 2024-09-27 03:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:03:44 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:03:44 --> Locale set to: en
+INFO - 2024-09-27 03:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:03:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:03:47 --> Locale set to: id
+INFO - 2024-09-27 03:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:03:51 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:03:51 --> Locale set to: id
+INFO - 2024-09-27 03:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:03:53 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:03:53 --> Locale set to: en
+INFO - 2024-09-27 03:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:03:55 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:03:55 --> Locale set to: en
+INFO - 2024-09-27 03:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:03:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:03:58 --> Locale set to: id
+INFO - 2024-09-27 03:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:04:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:04:04 --> Locale set to: id
+INFO - 2024-09-27 03:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:04:21 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:04:21 --> Locale set to: id
+INFO - 2024-09-27 03:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:04:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:04:22 --> Locale set to: id
+INFO - 2024-09-27 03:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:04:26 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:04:26 --> Locale set to: id
+INFO - 2024-09-27 03:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:04:51 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:04:51 --> Locale set to: id
+INFO - 2024-09-27 03:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:04:53 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:04:53 --> Locale set to: en
+INFO - 2024-09-27 03:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:04:56 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:04:56 --> Locale set to: id
+INFO - 2024-09-27 03:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:06:24 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:06:24 --> Locale set to: id
+INFO - 2024-09-27 03:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:06:26 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:06:26 --> Locale set to: id
+INFO - 2024-09-27 03:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:06:29 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:06:29 --> Locale set to: en
+INFO - 2024-09-27 03:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:06:31 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:06:31 --> Locale set to: id
+INFO - 2024-09-27 03:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:06:40 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:06:40 --> Locale set to: id
+INFO - 2024-09-27 03:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:10:17 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:10:17 --> Locale set to: id
+INFO - 2024-09-27 03:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:10:20 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:10:20 --> Locale set to: id
+INFO - 2024-09-27 03:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:10:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:10:22 --> Locale set to: en
+INFO - 2024-09-27 03:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:11:20 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:11:20 --> Locale set to: en
+INFO - 2024-09-27 03:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:11:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:11:22 --> Locale set to: id
+INFO - 2024-09-27 03:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:11:26 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:11:26 --> Locale set to: en
+INFO - 2024-09-27 03:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:11:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:11:28 --> Locale set to: en
+INFO - 2024-09-27 03:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:11:32 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:11:32 --> Locale set to: id
+INFO - 2024-09-27 03:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:13:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:13:43 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:13:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:13:43 --> Locale set to: id
+INFO - 2024-09-27 03:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:13:49 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:13:49 --> Locale set to: id
+INFO - 2024-09-27 03:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:13:53 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:13:53 --> Locale set to: en
+INFO - 2024-09-27 03:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:13:55 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:13:55 --> Locale set to: id
+INFO - 2024-09-27 03:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:13:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:13:58 --> Locale set to: en
+INFO - 2024-09-27 03:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:00 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:00 --> Locale set to: en
+INFO - 2024-09-27 03:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:00 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:00 --> Locale set to: en
+INFO - 2024-09-27 03:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:02 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:02 --> Locale set to: en
+INFO - 2024-09-27 03:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:03 --> Locale set to: en
+INFO - 2024-09-27 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:03 --> Locale set to: en
+INFO - 2024-09-27 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:06 --> Locale set to: en
+INFO - 2024-09-27 03:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:07 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:07 --> Locale set to: en
+INFO - 2024-09-27 03:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:10 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:10 --> Locale set to: id
+INFO - 2024-09-27 03:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:12 --> Locale set to: en
+INFO - 2024-09-27 03:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:33 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:33 --> Locale set to: id
+INFO - 2024-09-27 03:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:34 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:34 --> Locale set to: id
+INFO - 2024-09-27 03:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:34 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:34 --> Locale set to: id
+INFO - 2024-09-27 03:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:34 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:35 --> Locale set to: id
+INFO - 2024-09-27 03:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:35 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:35 --> Locale set to: id
+INFO - 2024-09-27 03:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:35 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:35 --> Locale set to: id
+INFO - 2024-09-27 03:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:35 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:35 --> Locale set to: id
+INFO - 2024-09-27 03:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:35 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:35 --> Locale set to: id
+INFO - 2024-09-27 03:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:35 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:36 --> Locale set to: id
+INFO - 2024-09-27 03:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:36 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:36 --> Locale set to: id
+INFO - 2024-09-27 03:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:36 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:37 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:37 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:37 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:37 --> Locale set to: id
+INFO - 2024-09-27 03:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:37 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:37 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:37 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:37 --> Locale set to: id
+INFO - 2024-09-27 03:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:38 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:38 --> Locale set to: id
+INFO - 2024-09-27 03:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:38 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:38 --> Locale set to: id
+INFO - 2024-09-27 03:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:38 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:38 --> Locale set to: id
+INFO - 2024-09-27 03:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:38 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:38 --> Locale set to: id
+INFO - 2024-09-27 03:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:38 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:39 --> Locale set to: id
+INFO - 2024-09-27 03:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:39 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:39 --> Locale set to: id
+INFO - 2024-09-27 03:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:39 --> Locale set to: id
+INFO - 2024-09-27 03:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:39 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:39 --> Locale set to: id
+INFO - 2024-09-27 03:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:39 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:40 --> Locale set to: id
+INFO - 2024-09-27 03:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:44 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:44 --> Locale set to: id
+INFO - 2024-09-27 03:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:14:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:46 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:14:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:14:46 --> Locale set to: id
+DEBUG - 2024-09-27 03:15:37 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:37 --> Locale set to: id
+DEBUG - 2024-09-27 03:15:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:38 --> Locale set to: id
+INFO - 2024-09-27 03:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:15:44 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:44 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:15:44 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:44 --> Locale set to: id
+INFO - 2024-09-27 03:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:15:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:46 --> Locale set to: id
+DEBUG - 2024-09-27 03:15:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:46 --> Locale set to: id
+DEBUG - 2024-09-27 03:15:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:46 --> Locale set to: id
+DEBUG - 2024-09-27 03:15:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:46 --> Locale set to: id
+DEBUG - 2024-09-27 03:15:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:46 --> Locale set to: id
+DEBUG - 2024-09-27 03:15:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:47 --> Locale set to: id
+DEBUG - 2024-09-27 03:15:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:15:48 --> Locale set to: en
+INFO - 2024-09-27 03:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:16:02 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:16:02 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:16:02 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:16:02 --> Locale set to: id
+INFO - 2024-09-27 03:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:16:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:16:03 --> Locale set to: id
+DEBUG - 2024-09-27 03:16:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:16:03 --> Locale set to: id
+DEBUG - 2024-09-27 03:16:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:16:03 --> Locale set to: id
+DEBUG - 2024-09-27 03:16:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:16:03 --> Locale set to: id
+DEBUG - 2024-09-27 03:16:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:16:03 --> Locale set to: id
+DEBUG - 2024-09-27 03:17:09 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:09 --> Locale set to: id
+INFO - 2024-09-27 03:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:17:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:12 --> Locale set to: id
+DEBUG - 2024-09-27 03:17:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:12 --> Locale set to: id
+DEBUG - 2024-09-27 03:17:14 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:14 --> Locale set to: id
+INFO - 2024-09-27 03:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:17:33 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:33 --> Locale set to: id
+INFO - 2024-09-27 03:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:17:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:34 --> Locale invalid, redirecting to default: id
+DEBUG - 2024-09-27 03:17:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:34 --> Locale set to: id
+INFO - 2024-09-27 03:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:17:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:34 --> Locale set to: id
+DEBUG - 2024-09-27 03:17:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:35 --> Locale set to: id
+DEBUG - 2024-09-27 03:17:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:35 --> Locale set to: id
+DEBUG - 2024-09-27 03:17:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:35 --> Locale set to: id
+DEBUG - 2024-09-27 03:17:35 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:17:35 --> Locale set to: id
+DEBUG - 2024-09-27 03:18:16 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:16 --> Locale set to: id
+DEBUG - 2024-09-27 03:18:18 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:18 --> Locale set to: id
+INFO - 2024-09-27 03:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:18:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:19 --> Locale set to default: id
+DEBUG - 2024-09-27 03:18:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:19 --> Locale set to: id
+INFO - 2024-09-27 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:18:21 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:21 --> Locale set to default: id
+INFO - 2024-09-27 03:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:18:29 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:29 --> Locale set to default: id
+INFO - 2024-09-27 03:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:18:30 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:30 --> Locale set to: id
+INFO - 2024-09-27 03:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:18:45 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:45 --> Locale set to default: id
+DEBUG - 2024-09-27 03:18:45 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:45 --> Locale set to: id
+INFO - 2024-09-27 03:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:18:50 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:50 --> Locale set to default: id
+DEBUG - 2024-09-27 03:18:50 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:50 --> Locale set to: id
+INFO - 2024-09-27 03:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:18:52 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:52 --> Locale set to: en
+INFO - 2024-09-27 03:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:18:55 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:55 --> Locale set to default: id
+INFO - 2024-09-27 03:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:18:56 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:56 --> Locale set to: id
+INFO - 2024-09-27 03:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:18:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:18:58 --> Locale set to: id
+INFO - 2024-09-27 03:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:19:00 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:19:00 --> Locale set to: id
+INFO - 2024-09-27 03:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:19:02 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:19:02 --> Locale set to: id
+INFO - 2024-09-27 03:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:19:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:19:04 --> Locale set to default: id
+INFO - 2024-09-27 03:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:19:05 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:19:05 --> Locale set to: en
+INFO - 2024-09-27 03:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:19:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:19:06 --> Locale set to: en
+INFO - 2024-09-27 03:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:19:10 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:19:10 --> Locale set to default: id
+INFO - 2024-09-27 03:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:19:10 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:19:10 --> Locale set to: id
+INFO - 2024-09-27 03:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:19:13 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:19:13 --> Locale set to default: id
+DEBUG - 2024-09-27 03:19:13 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:19:13 --> Locale set to: id
+INFO - 2024-09-27 03:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:19:14 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:19:14 --> Locale set to: id
+INFO - 2024-09-27 03:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:09 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:09 --> Locale set to: id
+INFO - 2024-09-27 03:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:09 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:09 --> Locale set to default: id
+INFO - 2024-09-27 03:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:12 --> Locale set to default: id
+INFO - 2024-09-27 03:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:14 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:14 --> Locale set to default: id
+INFO - 2024-09-27 03:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:34 --> Locale set to default: id
+INFO - 2024-09-27 03:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:36 --> Locale set to default: id
+INFO - 2024-09-27 03:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:38 --> Locale set to default: id
+INFO - 2024-09-27 03:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:38 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:38 --> Locale set to default: id
+INFO - 2024-09-27 03:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:43 --> Locale set to default: id
+INFO - 2024-09-27 03:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:45 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:45 --> Locale set to default: id
+INFO - 2024-09-27 03:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:45 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:45 --> Locale set to: id
+INFO - 2024-09-27 03:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:47 --> Locale set to: id
+INFO - 2024-09-27 03:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:47 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:47 --> Locale set to: id
+INFO - 2024-09-27 03:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:51 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:51 --> Locale set to: id
+INFO - 2024-09-27 03:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:51 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:51 --> Locale set to default: id
+INFO - 2024-09-27 03:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:57 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:57 --> Locale set to default: id
+INFO - 2024-09-27 03:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:57 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:57 --> Locale set to: id
+INFO - 2024-09-27 03:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:21:59 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:21:59 --> Locale set to: id
+INFO - 2024-09-27 03:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:22:00 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:22:00 --> Locale set to: id
+INFO - 2024-09-27 03:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:22:02 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:22:02 --> Locale set to: id
+INFO - 2024-09-27 03:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:22:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:22:04 --> Locale set to default: id
+INFO - 2024-09-27 03:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:22:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:22:04 --> Locale set to: en
+INFO - 2024-09-27 03:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:22:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:22:06 --> Locale set to: en
+INFO - 2024-09-27 03:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:25:49 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:25:49 --> Locale set to: en
+INFO - 2024-09-27 03:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:25:53 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:25:53 --> Locale set to default: id
+INFO - 2024-09-27 03:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:25:53 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:25:53 --> Locale set to: en
+INFO - 2024-09-27 03:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:25:55 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:25:55 --> Locale set to: en
+INFO - 2024-09-27 03:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:25:57 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:25:57 --> Locale set to default: id
+INFO - 2024-09-27 03:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:25:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:25:58 --> Locale set to: id
+INFO - 2024-09-27 03:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:25:59 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:25:59 --> Locale set to: id
+INFO - 2024-09-27 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:26:49 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:26:49 --> Locale set to: id
+INFO - 2024-09-27 03:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:26:51 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:26:51 --> Locale set to default: id
+INFO - 2024-09-27 03:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:26:51 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:26:51 --> Locale set to: en
+INFO - 2024-09-27 03:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:26:53 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:26:53 --> Locale set to default: id
+INFO - 2024-09-27 03:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:26:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:26:58 --> Locale set to: en
+INFO - 2024-09-27 03:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:26:59 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:26:59 --> Locale set to default: id
+INFO - 2024-09-27 03:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:27:00 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:27:00 --> Locale set to default: id
+INFO - 2024-09-27 03:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:28:17 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:28:17 --> Locale set to: en
+INFO - 2024-09-27 03:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:28:18 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:28:18 --> Locale set to default: id
+INFO - 2024-09-27 03:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:28:20 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:28:20 --> Locale set to: en
+INFO - 2024-09-27 03:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:28:23 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:28:23 --> Locale set to default: id
+INFO - 2024-09-27 03:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:28:23 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:28:23 --> Locale set to: id
+INFO - 2024-09-27 03:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:28:25 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:28:25 --> Locale set to: id
+INFO - 2024-09-27 03:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:29:11 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:29:11 --> Locale set to default: id
+INFO - 2024-09-27 03:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:29:11 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:29:11 --> Locale set to: en
+INFO - 2024-09-27 03:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:29:13 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:29:13 --> Locale set to: en
+INFO - 2024-09-27 03:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:34:54 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:34:54 --> Locale set to: en
+INFO - 2024-09-27 03:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:34:55 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:34:55 --> Locale set to: en
+INFO - 2024-09-27 03:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:34:57 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:34:57 --> Locale set to: en
+INFO - 2024-09-27 03:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:34:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:34:58 --> Locale set to: en
+INFO - 2024-09-27 03:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:00 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:00 --> Locale set to: en
+INFO - 2024-09-27 03:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:01 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:01 --> Locale set to: en
+INFO - 2024-09-27 03:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:04 --> Locale set to: en
+INFO - 2024-09-27 03:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:09 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:09 --> Locale set to: en
+INFO - 2024-09-27 03:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:13 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:13 --> Locale set to: en
+INFO - 2024-09-27 03:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:15 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:15 --> Locale set to default: id
+INFO - 2024-09-27 03:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:15 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:15 --> Locale set to: id
+INFO - 2024-09-27 03:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:19 --> Locale set to: id
+INFO - 2024-09-27 03:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:28 --> Locale set to default: id
+INFO - 2024-09-27 03:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:28 --> Locale set to: en
+INFO - 2024-09-27 03:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:31 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:31 --> Locale set to: en
+INFO - 2024-09-27 03:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 03:35:33 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 03:35:33 --> Locale set to: en
+INFO - 2024-09-27 03:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:07:33 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:07:33 --> Locale set to: en
+INFO - 2024-09-27 04:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:07:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:07:48 --> Locale set to: en
+INFO - 2024-09-27 04:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:07:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:07:48 --> Locale set to default: id
+INFO - 2024-09-27 04:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:07:50 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:07:50 --> Locale set to default: id
+INFO - 2024-09-27 04:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:07:53 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:07:53 --> Locale set to default: id
+INFO - 2024-09-27 04:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:07:56 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:07:56 --> Locale set to default: id
+INFO - 2024-09-27 04:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:07:56 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:07:56 --> Locale set to: id
+INFO - 2024-09-27 04:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:07:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:07:58 --> Locale set to: id
+INFO - 2024-09-27 04:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:01 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:01 --> Locale set to default: id
+INFO - 2024-09-27 04:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:01 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:01 --> Locale set to: en
+INFO - 2024-09-27 04:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:02 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:02 --> Locale set to: en
+INFO - 2024-09-27 04:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:04 --> Locale set to: en
+INFO - 2024-09-27 04:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:05 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:05 --> Locale set to default: id
+INFO - 2024-09-27 04:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:09 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:09 --> Locale set to default: id
+INFO - 2024-09-27 04:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:12 --> Locale set to default: id
+INFO - 2024-09-27 04:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:14 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:14 --> Locale set to default: id
+INFO - 2024-09-27 04:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:14 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:14 --> Locale set to: id
+INFO - 2024-09-27 04:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:19 --> Locale set to: id
+INFO - 2024-09-27 04:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:37 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:37 --> Locale set to: id
+INFO - 2024-09-27 04:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:39 --> Locale set to default: id
+INFO - 2024-09-27 04:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:39 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:39 --> Locale set to: en
+INFO - 2024-09-27 04:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:08:41 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:08:41 --> Locale set to: en
+INFO - 2024-09-27 04:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:10:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:10:06 --> Locale set to default: id
+INFO - 2024-09-27 04:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:10:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:10:06 --> Locale set to: id
+INFO - 2024-09-27 04:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:10:10 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:10:10 --> Locale set to: id
+INFO - 2024-09-27 04:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:10:16 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:10:16 --> Locale set to: id
+INFO - 2024-09-27 04:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:10:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:10:19 --> Locale set to: id
+INFO - 2024-09-27 04:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:10:21 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:10:21 --> Locale set to: id
+INFO - 2024-09-27 04:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:10:24 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:10:24 --> Locale set to: id
+INFO - 2024-09-27 04:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:10:27 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:10:27 --> Locale set to: id
+INFO - 2024-09-27 04:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:13:37 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:13:37 --> Locale set to: id
+INFO - 2024-09-27 04:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:13:41 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:13:41 --> Locale set to: id
+INFO - 2024-09-27 04:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:13:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:13:46 --> Locale set to: id
+INFO - 2024-09-27 04:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:14:29 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:14:29 --> Locale set to: id
+INFO - 2024-09-27 04:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:14:31 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:14:31 --> Locale set to: id
+INFO - 2024-09-27 04:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 04:14:31 --> Attempt to read property "nama_produk_in" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 61.
+ 1 APPPATH\Controllers\user\Productsctrl.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_in" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services', 'Jasa-Pembuatan-WebGIS', '')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 04:14:42 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:14:42 --> Locale set to: id
+DEBUG - 2024-09-27 04:15:18 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:15:18 --> Locale set to: id
+DEBUG - 2024-09-27 04:15:20 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:15:20 --> Locale set to: id
+INFO - 2024-09-27 04:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:17:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:17:04 --> Locale set to: id
+INFO - 2024-09-27 04:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:17:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:17:06 --> Locale set to: id
+INFO - 2024-09-27 04:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 04:17:06 --> Attempt to read property "nama_produk_in" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 61.
+ 1 APPPATH\Controllers\user\Productsctrl.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_in" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services_Jasa-Pembuatan-WebGIS')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 04:17:50 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:17:50 --> Locale set to: id
+INFO - 2024-09-27 04:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:17:52 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:17:52 --> Locale set to: id
+INFO - 2024-09-27 04:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 04:17:52 --> Attempt to read property "nama_produk_in" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 61.
+ 1 APPPATH\Controllers\user\Productsctrl.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_in" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 04:18:20 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:18:20 --> Locale set to: id
+DEBUG - 2024-09-27 04:18:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:18:22 --> Locale set to: id
+INFO - 2024-09-27 04:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:18:23 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:18:23 --> Locale set to: id
+INFO - 2024-09-27 04:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 04:18:25 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 04:18:25 --> Locale set to: id
+INFO - 2024-09-27 04:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:18:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:18:19 --> Locale set to: id
+INFO - 2024-09-27 06:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:18:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:18:22 --> Locale set to: en
+INFO - 2024-09-27 06:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:18:22 --> Attempt to read property "nama_produk_en" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 61.
+ 1 APPPATH\Controllers\user\Productsctrl.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_en" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 06:18:25 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:18:25 --> Locale set to: id
+INFO - 2024-09-27 06:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:18:40 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:18:40 --> Locale set to: en
+INFO - 2024-09-27 06:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:18:40 --> Attempt to read property "nama_produk_en" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 61.
+ 1 APPPATH\Controllers\user\Productsctrl.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_en" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 06:18:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:18:43 --> Locale set to: id
+INFO - 2024-09-27 06:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:18:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:18:43 --> Locale set to: id
+INFO - 2024-09-27 06:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:18:45 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:18:45 --> Locale set to: en
+INFO - 2024-09-27 06:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:18:45 --> Attempt to read property "nama_produk_en" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 61.
+ 1 APPPATH\Controllers\user\Productsctrl.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_en" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services_Jasa-Pembuatan-WebGIS')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 06:21:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:21:46 --> Locale set to: en
+INFO - 2024-09-27 06:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:21:46 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:21:46 --> Locale set to default: id
+DEBUG - 2024-09-27 06:21:48 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:21:48 --> Locale set to: id
+INFO - 2024-09-27 06:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:21:50 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:21:50 --> Locale set to: en
+INFO - 2024-09-27 06:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:21:50 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:21:50 --> Locale set to default: id
+DEBUG - 2024-09-27 06:21:52 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:21:52 --> Locale set to: id
+INFO - 2024-09-27 06:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:21:54 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:21:54 --> Locale set to: en
+INFO - 2024-09-27 06:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:21:54 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:21:54 --> Locale set to default: id
+DEBUG - 2024-09-27 06:21:59 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:21:59 --> Locale set to: id
+INFO - 2024-09-27 06:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:22:01 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:01 --> Locale set to: en
+INFO - 2024-09-27 06:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:22:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:03 --> Locale set to: en
+INFO - 2024-09-27 06:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:22:05 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:05 --> Locale set to default: id
+INFO - 2024-09-27 06:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:22:05 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:05 --> Locale set to: id
+INFO - 2024-09-27 06:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:22:06 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:06 --> Locale set to: id
+INFO - 2024-09-27 06:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:22:08 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:08 --> Locale set to: id
+INFO - 2024-09-27 06:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:22:09 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:09 --> Locale set to: id
+INFO - 2024-09-27 06:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:22:09 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:09 --> Locale set to default: id
+DEBUG - 2024-09-27 06:22:10 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:10 --> Locale set to: id
+INFO - 2024-09-27 06:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:22:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:12 --> Locale set to: id
+INFO - 2024-09-27 06:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:22:13 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:22:13 --> Locale set to: id
+INFO - 2024-09-27 06:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:24:54 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:24:54 --> Locale set to: id
+INFO - 2024-09-27 06:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:24:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:24:58 --> Locale set to: id
+INFO - 2024-09-27 06:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:24:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:24:58 --> Locale set to default: id
+DEBUG - 2024-09-27 06:25:23 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:25:23 --> Locale set to default: id
+DEBUG - 2024-09-27 06:25:24 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:25:24 --> Locale set to: id
+INFO - 2024-09-27 06:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:25:25 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:25:25 --> Locale set to: id
+INFO - 2024-09-27 06:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:25:25 --> Attempt to read property "nama_produk_in" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 64.
+ 1 APPPATH\Controllers\user\Productsctrl.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_in" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services_Jasa-Pembuatan-WebGIS')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 06:25:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:25:43 --> Locale set to: id
+INFO - 2024-09-27 06:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:25:43 --> Attempt to read property "nama_produk_in" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 64.
+ 1 APPPATH\Controllers\user\Productsctrl.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_in" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services_Jasa-Pembuatan-WebGIS', '')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 06:26:18 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:26:18 --> Locale set to: id
+INFO - 2024-09-27 06:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:26:18 --> Attempt to read property "nama_produk_in" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 64.
+ 1 APPPATH\Controllers\user\Productsctrl.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_in" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services_Jasa-Pembuatan-WebGIS')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 06:26:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:26:19 --> Locale set to: id
+INFO - 2024-09-27 06:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:26:20 --> Attempt to read property "nama_produk_in" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 64.
+ 1 APPPATH\Controllers\user\Productsctrl.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_in" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services_Jasa-Pembuatan-WebGIS')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 06:27:25 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:27:25 --> Locale set to: id
+INFO - 2024-09-27 06:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:27:25 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:27:25 --> Locale set to default: id
+INFO - 2024-09-27 06:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:27:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:27:28 --> Locale set to: id
+INFO - 2024-09-27 06:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:27:30 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:27:30 --> Locale set to: id
+INFO - 2024-09-27 06:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:27:30 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:27:30 --> Locale set to default: id
+INFO - 2024-09-27 06:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:27:32 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:27:32 --> Locale set to: id
+INFO - 2024-09-27 06:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:27:33 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:27:33 --> Locale set to default: id
+INFO - 2024-09-27 06:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:27:40 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:27:40 --> Locale set to default: id
+INFO - 2024-09-27 06:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:27:42 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:27:42 --> Locale set to: id
+INFO - 2024-09-27 06:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:27:42 --> Attempt to read property "nama_produk_in" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 64.
+ 1 APPPATH\Controllers\user\Productsctrl.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_in" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services_Jasa-Pembuatan-WebGIS')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 06:28:15 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:28:15 --> Locale set to: id
+INFO - 2024-09-27 06:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:28:15 --> Attempt to read property "nama_produk_in" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 64.
+ 1 APPPATH\Controllers\user\Productsctrl.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_in" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services_Jasa-Pembuatan-WebGIS')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 06:28:16 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:28:16 --> Locale set to: id
+INFO - 2024-09-27 06:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 06:28:16 --> Attempt to read property "nama_produk_in" on null
+in APPPATH\Controllers\user\Productsctrl.php on line 64.
+ 1 APPPATH\Controllers\user\Productsctrl.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_produk_in" on null', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Productsctrl.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Productsctrl->detail('WebGIS-Development-Services_Jasa-Pembuatan-WebGIS')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Productsctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+DEBUG - 2024-09-27 06:29:02 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:29:02 --> Locale set to default: id
+INFO - 2024-09-27 06:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:29:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:29:03 --> Locale set to default: id
+INFO - 2024-09-27 06:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:29:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:29:04 --> Locale set to: id
+INFO - 2024-09-27 06:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:29:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:29:04 --> Locale set to default: id
+DEBUG - 2024-09-27 06:29:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:29:04 --> Locale set to: id
+INFO - 2024-09-27 06:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:30:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:30:19 --> Locale set to: id
+INFO - 2024-09-27 06:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:30:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:30:19 --> Locale set to default: id
+DEBUG - 2024-09-27 06:30:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:30:19 --> Locale set to: id
+INFO - 2024-09-27 06:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:30:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:30:22 --> Locale set to: id
+INFO - 2024-09-27 06:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:30:25 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:30:25 --> Locale set to: id
+INFO - 2024-09-27 06:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:30:26 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:30:26 --> Locale set to: id
+INFO - 2024-09-27 06:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:31:26 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:31:26 --> Locale set to: id
+INFO - 2024-09-27 06:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:31:27 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:31:27 --> Locale set to: id
+INFO - 2024-09-27 06:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:31:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:31:28 --> Locale set to: id
+INFO - 2024-09-27 06:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:31:29 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:31:29 --> Locale set to default: id
+DEBUG - 2024-09-27 06:31:29 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:31:29 --> Locale set to: id
+INFO - 2024-09-27 06:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:36:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:36:28 --> Locale set to: id
+INFO - 2024-09-27 06:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:36:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:36:28 --> Locale set to default: id
+DEBUG - 2024-09-27 06:36:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:36:28 --> Locale set to: id
+INFO - 2024-09-27 06:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:36:40 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:36:40 --> Locale set to: id
+INFO - 2024-09-27 06:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:36:41 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:36:41 --> Locale set to: id
+INFO - 2024-09-27 06:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 06:36:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 06:36:43 --> Locale set to: id
+INFO - 2024-09-27 06:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:28:49 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:28:49 --> Locale set to: id
+INFO - 2024-09-27 08:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:28:57 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:28:57 --> Locale set to: id
+INFO - 2024-09-27 08:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:30:19 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:30:19 --> Locale set to: id
+INFO - 2024-09-27 08:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:30:20 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:30:20 --> Locale set to: id
+INFO - 2024-09-27 08:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:30:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:30:22 --> Locale set to: id
+INFO - 2024-09-27 08:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:30:23 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:30:23 --> Locale set to: id
+INFO - 2024-09-27 08:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:30:26 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:30:26 --> Locale set to: id
+DEBUG - 2024-09-27 08:31:03 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:03 --> Locale set to: id
+INFO - 2024-09-27 08:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:31:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:04 --> Locale set to: id
+DEBUG - 2024-09-27 08:31:07 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:07 --> Locale set to: id
+INFO - 2024-09-27 08:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:31:20 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:20 --> Locale set to default: id
+INFO - 2024-09-27 08:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:31:20 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:20 --> Locale set to: en
+INFO - 2024-09-27 08:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:31:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:22 --> Locale set to: en
+DEBUG - 2024-09-27 08:31:24 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:24 --> Locale set to: en
+INFO - 2024-09-27 08:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:31:28 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:28 --> Locale set to: en
+INFO - 2024-09-27 08:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:31:30 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:30 --> Locale set to: en
+DEBUG - 2024-09-27 08:31:32 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:32 --> Locale set to: en
+INFO - 2024-09-27 08:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:31:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:34 --> Locale set to default: id
+INFO - 2024-09-27 08:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:31:34 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:34 --> Locale set to: id
+INFO - 2024-09-27 08:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:31:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:36 --> Locale set to: id
+DEBUG - 2024-09-27 08:31:41 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:41 --> Locale set to: id
+INFO - 2024-09-27 08:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:31:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:31:43 --> Locale set to: id
+INFO - 2024-09-27 08:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:33:44 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:33:44 --> Locale set to: id
+INFO - 2024-09-27 08:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:33:49 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:33:49 --> Locale set to default: id
+INFO - 2024-09-27 08:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:33:49 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:33:49 --> Locale set to: id
+INFO - 2024-09-27 08:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:51:51 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:51:51 --> Locale set to: id
+INFO - 2024-09-27 08:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 08:51:53 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 08:51:53 --> Locale set to: id
+INFO - 2024-09-27 08:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:10:01 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:10:01 --> Locale set to: id
+INFO - 2024-09-27 09:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:10:05 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:10:05 --> Locale set to: id
+INFO - 2024-09-27 09:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:10:12 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:10:12 --> Locale set to: id
+INFO - 2024-09-27 09:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:10:14 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:10:14 --> Locale set to: id
+INFO - 2024-09-27 09:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:10:22 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:10:22 --> Locale set to: id
+INFO - 2024-09-27 09:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:10:24 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:10:24 --> Locale set to: id
+INFO - 2024-09-27 09:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:16:56 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:16:56 --> Locale set to default: id
+DEBUG - 2024-09-27 09:16:56 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:16:56 --> Locale set to: id
+INFO - 2024-09-27 09:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:16:58 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:16:58 --> Locale set to default: id
+DEBUG - 2024-09-27 09:16:59 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:16:59 --> Locale set to default: id
+DEBUG - 2024-09-27 09:17:04 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:04 --> Locale set to default: id
+INFO - 2024-09-27 09:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:17:07 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:07 --> Locale set to default: id
+INFO - 2024-09-27 09:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:17:14 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:14 --> Locale set to default: id
+DEBUG - 2024-09-27 09:17:15 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:15 --> Locale set to default: id
+INFO - 2024-09-27 09:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:17:29 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:29 --> Locale set to: id
+INFO - 2024-09-27 09:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:17:30 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:30 --> Locale set to default: id
+INFO - 2024-09-27 09:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:17:33 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:33 --> Locale set to: id
+INFO - 2024-09-27 09:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:17:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:36 --> Locale set to: id
+INFO - 2024-09-27 09:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:17:36 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:36 --> Locale set to default: id
+INFO - 2024-09-27 09:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-09-27 09:17:40 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:40 --> Locale set to default: id
+DEBUG - 2024-09-27 09:17:43 --> LocaleFilter triggered.
+DEBUG - 2024-09-27 09:17:43 --> Locale set to default: id
