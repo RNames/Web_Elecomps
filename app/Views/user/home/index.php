@@ -85,7 +85,7 @@
 <div class="container-fluid py-5 my-5">
     <div class="container py-5">
         <div class="row">
-            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="section-title text-center mx-auto wow fadeInUp mb-0" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h1 class="display-6" style="color: #02abf0;"><?php echo lang('Blog.btnOurproducts'); ?></h1>
             </div>
         </div>
