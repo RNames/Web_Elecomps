@@ -95,6 +95,7 @@ $routes->group('id', function ($routes) {
     $routes->get('artikel', 'user\Artikelctrl::index'); // Articles in ID
     $routes->get('artikel/(:segment)', 'user\Artikelctrl::detail/$1'); // Article detail
     $routes->get('kontak', 'user\Contactctrl::index'); // Contact in ID
+    $routes->get('sitemap', 'user\Sitemapctrl::index');
 });
 
 $routes->group('en', function ($routes) {
@@ -107,6 +108,7 @@ $routes->group('en', function ($routes) {
     $routes->get('articles', 'user\Artikelctrl::index'); // Articles in EN
     $routes->get('articles/(:segment)', 'user\Artikelctrl::detail/$1'); // Article detail
     $routes->get('contact', 'user\Contactctrl::index'); // Contact in EN
+    $routes->get('sitemap', 'user\Sitemapctrl::index');
 });
 
 /*
