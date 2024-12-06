@@ -1,0 +1,36 @@
+INFO - 2024-11-11 07:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 07:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 07:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 07:33:07 --> Undefined property: stdClass::$slug_id
+in APPPATH\Controllers\user\Sitemapctrl.php on line 42.
+ 1 APPPATH\Controllers\user\Sitemapctrl.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$slug_id', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Sitemapctrl.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Sitemapctrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Sitemapctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+INFO - 2024-11-11 07:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 07:33:15 --> Undefined property: stdClass::$slug_id
+in APPPATH\Controllers\user\Sitemapctrl.php on line 42.
+ 1 APPPATH\Controllers\user\Sitemapctrl.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$slug_id', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Sitemapctrl.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Sitemapctrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Sitemapctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+INFO - 2024-11-11 07:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 07:33:36 --> Undefined property: stdClass::$slug_id
+in APPPATH\Controllers\user\Sitemapctrl.php on line 48.
+ 1 APPPATH\Controllers\user\Sitemapctrl.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$slug_id', 'C:\\projectcomp\\projek5\\elecompid\\41\\app\\Controllers\\user\\Sitemapctrl.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Sitemapctrl->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Sitemapctrl))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projectcomp\\projek5\\elecompid\\41\\public\\index.php')
+INFO - 2024-11-11 07:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 08:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 08:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 08:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 08:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 08:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 08:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

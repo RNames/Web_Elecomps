@@ -39,19 +39,19 @@ class Sitemapctrl extends BaseController
 
         // URL dinamis untuk aktivitas
         foreach ($aktivitasData as $aktivitas) {
-            $data['aktivitas_id'][] = base_url('id/aktivitas/' . $aktivitas->slug_id);
+            $data['aktivitas_id'][] = base_url('id/aktivitas/' . $aktivitas->slug_in);
             $data['aktivitas_en'][] = base_url('en/activities/' . $aktivitas->slug_en);
         }
 
         // URL dinamis untuk produk
         foreach ($productsData as $product) {
-            $data['products_id'][] = base_url('id/layanan/' . $product->slug_id);
+            $data['products_id'][] = base_url('id/layanan/' . $product->slug_in);
             $data['products_en'][] = base_url('en/service/' . $product->slug_en);
         }
 
         // URL dinamis untuk artikel
         foreach ($artikelData as $artikel) {
-            $data['articles_id'][] = base_url('id/artikel/' . $artikel->slug_id);
+            $data['articles_id'][] = base_url('id/artikel/' . $artikel->slug_in);
             $data['articles_en'][] = base_url('en/articles/' . $artikel->slug_en);
         }
 
