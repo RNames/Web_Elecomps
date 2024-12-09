@@ -1,0 +1,75 @@
+INFO - 2024-12-08 10:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:31:02 --> CSRF token verified.
+INFO - 2024-12-08 10:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:32:20 --> CSRF token verified.
+INFO - 2024-12-08 10:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:41:28 --> CSRF token verified.
+CRITICAL - 2024-12-08 10:41:28 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\admin\ArtikelPBN.php on line 223.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\ArtikelPBN->proses_edit('9')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ArtikelPBN))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\WINDOWS\\OneDrive\\Documents\\GitHub\\Web_Elecomps\\public\\index.php')
+INFO - 2024-12-08 10:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:46:47 --> CSRF token verified.
+WARNING - 2024-12-08 10:46:47 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\admin\ArtikelPBN.php on line 21.
+ 1 APPPATH\Controllers\admin\ArtikelPBN.php(21): strtolower(null)
+ 2 APPPATH\Controllers\admin\ArtikelPBN.php(237): App\Controllers\admin\ArtikelPBN->generateSlug(null)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\ArtikelPBN->proses_edit('9')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ArtikelPBN))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\WINDOWS\\OneDrive\\Documents\\GitHub\\Web_Elecomps\\public\\index.php')
+ERROR - 2024-12-08 10:46:47 --> mysqli_sql_exception: Unknown column 'slug_en' in 'field list' in C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `artikel...', 0)
+#1 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `artikel...')
+#2 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `artikel...')
+#3 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `artikel...', Array, false)
+#4 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\app\Controllers\admin\ArtikelPBN.php(241): CodeIgniter\Model->update('9', Array)
+#8 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\CodeIgniter.php(932): App\Controllers\admin\ArtikelPBN->proses_edit('9')
+#9 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ArtikelPBN))
+#10 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\WINDOW...')
+#13 {main}
+CRITICAL - 2024-12-08 10:46:47 --> Unknown column 'slug_en' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `artikel_pbn` SET `id_pbn` = \'1\', `judul_artikelpbn` = \'inilah\', `deskripsi_artikelpbn` = \'<p>ppp</p>\', `creator_artikelpbn` = \'nala\', `statusupload_artikelpbn` = \'Sudah Diupload\', `tanggalupload_artikelpbn` = \'2024-12-08T02:21\', `alamatweb_backlink` = \'\', `foto_artikelpbn` = \'inilah_07122024192117.jpg\', `slug_in` = \'inilah\', `slug_en` = \'\'
+WHERE `artikel_pbn`.`id_artikelpbn` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `artikel_pbn` SET `id_pbn` = \'1\', `judul_artikelpbn` = \'inilah\', `deskripsi_artikelpbn` = \'<p>ppp</p>\', `creator_artikelpbn` = \'nala\', `statusupload_artikelpbn` = \'Sudah Diupload\', `tanggalupload_artikelpbn` = \'2024-12-08T02:21\', `alamatweb_backlink` = \'\', `foto_artikelpbn` = \'inilah_07122024192117.jpg\', `slug_in` = \'inilah\', `slug_en` = \'\'
+WHERE `artikel_pbn`.`id_artikelpbn` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `artikel_pbn` SET `id_pbn` = \'1\', `judul_artikelpbn` = \'inilah\', `deskripsi_artikelpbn` = \'<p>ppp</p>\', `creator_artikelpbn` = \'nala\', `statusupload_artikelpbn` = \'Sudah Diupload\', `tanggalupload_artikelpbn` = \'2024-12-08T02:21\', `alamatweb_backlink` = \'\', `foto_artikelpbn` = \'inilah_07122024192117.jpg\', `slug_in` = \'inilah\', `slug_en` = \'\'
+WHERE `artikel_pbn`.`id_artikelpbn` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `artikel_pbn` SET `id_pbn` = :id_pbn:, `judul_artikelpbn` = :judul_artikelpbn:, `deskripsi_artikelpbn` = :deskripsi_artikelpbn:, `creator_artikelpbn` = :creator_artikelpbn:, `statusupload_artikelpbn` = :statusupload_artikelpbn:, `tanggalupload_artikelpbn` = :tanggalupload_artikelpbn:, `alamatweb_backlink` = :alamatweb_backlink:, `foto_artikelpbn` = :foto_artikelpbn:, `slug_in` = :slug_in:, `slug_en` = :slug_en:
+WHERE `artikel_pbn`.`id_artikelpbn` IN :artikel_pbn.id_artikelpbn:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\admin\ArtikelPBN.php(241): CodeIgniter\Model->update('9', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\ArtikelPBN->proses_edit('9')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ArtikelPBN))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\WINDOWS\\OneDrive\\Documents\\GitHub\\Web_Elecomps\\public\\index.php')
+INFO - 2024-12-08 10:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:47:22 --> CSRF token verified.
+INFO - 2024-12-08 10:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:47:42 --> CSRF token verified.
+INFO - 2024-12-08 10:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 11:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

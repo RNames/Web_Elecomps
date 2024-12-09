@@ -76,6 +76,33 @@ $routes->get('admin/meta/edit/(:num)', 'admin\MetaController::edit/$1');
 $routes->post('admin/meta/proses_edit/(:num)', 'admin\MetaController::proses_edit/$1');
 $routes->get('admin/meta/delete/(:any)', 'admin\MetaController::delete/$1');
 
+// ADMIN PBN
+$routes->get('admin/artikelpbn', 'admin\ArtikelPBN::index'); // Route default
+$routes->get('admin/artikelpbn/index', 'admin\ArtikelPBN::index');
+$routes->get('admin/artikelpbn/tambah', 'admin\ArtikelPBN::tambah');
+$routes->post('admin/artikelpbn/proses_tambah', 'admin\ArtikelPBN::proses_tambah');
+$routes->get('admin/artikelpbn/edit/(:num)', 'admin\ArtikelPBN::edit/$1');
+$routes->post('admin/artikelpbn/proses_edit/(:num)', 'admin\ArtikelPBN::proses_edit/$1');
+$routes->get('admin/artikelpbn/delete/(:any)', 'admin\ArtikelPBN::delete/$1');
+
+// ADMIN EMAIL PBN
+$routes->get('admin/emailpbn', 'admin\EmailPBN::index'); // Route default
+$routes->get('admin/emailpbn/index', 'admin\EmailPBN::index');
+$routes->get('admin/emailpbn/tambah', 'admin\EmailPBN::tambah');
+$routes->post('admin/emailpbn/proses_tambah', 'admin\EmailPBN::proses_tambah');
+$routes->get('admin/emailpbn/edit/(:num)', 'admin\EmailPBN::edit/$1');
+$routes->post('admin/emailpbn/proses_edit/(:num)', 'admin\EmailPBN::proses_edit/$1');
+$routes->get('admin/emailpbn/delete/(:any)', 'admin\EmailPBN::delete/$1');
+
+// ADMIN PBN
+$routes->get('admin/pbn', 'admin\PBN::index'); // Route default
+$routes->get('admin/pbn/index', 'admin\PBN::index');
+$routes->get('admin/pbn/tambah', 'admin\PBN::tambah');
+$routes->post('admin/pbn/proses_tambah', 'admin\PBN::proses_tambah');
+$routes->get('admin/pbn/edit/(:num)', 'admin\PBN::edit/$1');
+$routes->post('admin/pbn/proses_edit/(:num)', 'admin\PBN::proses_edit/$1');
+$routes->get('admin/pbn/delete/(:any)', 'admin\PBN::delete/$1');
+
 
 // Front-end routes with LanguageFilter applied
 $routes->get('/', function () {
