@@ -23,11 +23,6 @@ class ArtikelpbnModel extends Model
         'tanggalupload_artikelpbn',
         'alamatweb_backlink',
         'slug_in',
-        'slug_en',
-        'meta_title_id',
-        'meta_title_en',
-        'meta_description_id',
-        'meta_description_en',
     ];
 
     // Method to get the latest articles

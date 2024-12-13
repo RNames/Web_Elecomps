@@ -87,3 +87,147 @@ INFO - 2024-12-09 07:26:05 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-12-09 07:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-09 07:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-09 07:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:34:40 --> CSRF token verified.
+INFO - 2024-12-09 07:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:35:27 --> CSRF token verified.
+INFO - 2024-12-09 07:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:36:17 --> CSRF token verified.
+INFO - 2024-12-09 07:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:37:29 --> CSRF token verified.
+INFO - 2024-12-09 07:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:38:25 --> CSRF token verified.
+INFO - 2024-12-09 07:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:38:45 --> CSRF token verified.
+INFO - 2024-12-09 07:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:39:43 --> CSRF token verified.
+INFO - 2024-12-09 07:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 07:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:08:41 --> CSRF token verified.
+WARNING - 2024-12-09 08:08:41 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\admin\ArtikelPBN.php on line 21.
+ 1 APPPATH\Controllers\admin\ArtikelPBN.php(21): strtolower(null)
+ 2 APPPATH\Controllers\admin\ArtikelPBN.php(135): App\Controllers\admin\ArtikelPBN->generateSlug(null)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\ArtikelPBN->proses_tambah()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ArtikelPBN))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\WINDOWS\\OneDrive\\Documents\\GitHub\\Web_Elecomps\\public\\index.php')
+ERROR - 2024-12-09 08:08:41 --> mysqli_sql_exception: Unknown column 'slug_en' in 'field list' in C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ar...', 0)
+#1 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\app\Controllers\admin\ArtikelPBN.php(139): CodeIgniter\Model->insert(Array)
+#8 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\CodeIgniter.php(932): App\Controllers\admin\ArtikelPBN->proses_tambah()
+#9 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ArtikelPBN))
+#10 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\WINDOW...')
+#13 {main}
+CRITICAL - 2024-12-09 08:08:41 --> Unknown column 'slug_en' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `artikel_pbn` (`id_pbn`, `judul_artikelpbn`, `deskripsi_artikelpbn`, `creator_artikelpbn`, `tanggalbuat_artikelpbn`, `statusupload_artikelpbn`, `tanggalupload_artikelpbn`, `alamatweb_backlink`, `foto_artikelpbn`, `slug_in`, `slug_en`) VALUES (\'3\', \'inilah\', \'<p>bhjfh</p>\', \'nala\', \'2024-12-09T15:07\', \'Belum Diupload\', NULL, \'https://wisata\', \'inilah_09122024080841.jpg\', \'inilah\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `artikel_pbn` (`id_pbn`, `judul_artikelpbn`, `deskripsi_artikelpbn`, `creator_artikelpbn`, `tanggalbuat_artikelpbn`, `statusupload_artikelpbn`, `tanggalupload_artikelpbn`, `alamatweb_backlink`, `foto_artikelpbn`, `slug_in`, `slug_en`) VALUES (\'3\', \'inilah\', \'<p>bhjfh</p>\', \'nala\', \'2024-12-09T15:07\', \'Belum Diupload\', NULL, \'https://wisata\', \'inilah_09122024080841.jpg\', \'inilah\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `artikel_pbn` (`id_pbn`, `judul_artikelpbn`, `deskripsi_artikelpbn`, `creator_artikelpbn`, `tanggalbuat_artikelpbn`, `statusupload_artikelpbn`, `tanggalupload_artikelpbn`, `alamatweb_backlink`, `foto_artikelpbn`, `slug_in`, `slug_en`) VALUES (\'3\', \'inilah\', \'<p>bhjfh</p>\', \'nala\', \'2024-12-09T15:07\', \'Belum Diupload\', NULL, \'https://wisata\', \'inilah_09122024080841.jpg\', \'inilah\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `artikel_pbn` (`id_pbn`, `judul_artikelpbn`, `deskripsi_artikelpbn`, `creator_artikelpbn`, `tanggalbuat_artikelpbn`, `statusupload_artikelpbn`, `tanggalupload_artikelpbn`, `alamatweb_backlink`, `foto_artikelpbn`, `slug_in`, `slug_en`) VALUES (:id_pbn:, :judul_artikelpbn:, :deskripsi_artikelpbn:, :creator_artikelpbn:, :tanggalbuat_artikelpbn:, :statusupload_artikelpbn:, :tanggalupload_artikelpbn:, :alamatweb_backlink:, :foto_artikelpbn:, :slug_in:, :slug_en:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\ArtikelPBN.php(139): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\ArtikelPBN->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ArtikelPBN))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\WINDOWS\\OneDrive\\Documents\\GitHub\\Web_Elecomps\\public\\index.php')
+INFO - 2024-12-09 08:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:08:58 --> CSRF token verified.
+WARNING - 2024-12-09 08:08:58 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\admin\ArtikelPBN.php on line 21.
+ 1 APPPATH\Controllers\admin\ArtikelPBN.php(21): strtolower(null)
+ 2 APPPATH\Controllers\admin\ArtikelPBN.php(135): App\Controllers\admin\ArtikelPBN->generateSlug(null)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\ArtikelPBN->proses_tambah()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ArtikelPBN))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\WINDOWS\\OneDrive\\Documents\\GitHub\\Web_Elecomps\\public\\index.php')
+ERROR - 2024-12-09 08:08:58 --> mysqli_sql_exception: Unknown column 'slug_en' in 'field list' in C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ar...', 0)
+#1 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\app\Controllers\admin\ArtikelPBN.php(139): CodeIgniter\Model->insert(Array)
+#8 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\CodeIgniter.php(932): App\Controllers\admin\ArtikelPBN->proses_tambah()
+#9 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ArtikelPBN))
+#10 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\WINDOWS\OneDrive\Documents\GitHub\Web_Elecomps\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\WINDOW...')
+#13 {main}
+CRITICAL - 2024-12-09 08:08:58 --> Unknown column 'slug_en' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `artikel_pbn` (`id_pbn`, `judul_artikelpbn`, `deskripsi_artikelpbn`, `creator_artikelpbn`, `tanggalbuat_artikelpbn`, `statusupload_artikelpbn`, `tanggalupload_artikelpbn`, `alamatweb_backlink`, `foto_artikelpbn`, `slug_in`, `slug_en`) VALUES (\'3\', \'inilah\', \'<p>bhjfh</p>\', \'nala\', \'2024-12-09T15:07\', \'Belum Diupload\', NULL, \'\', \'inilah_09122024080858.jpg\', \'inilah\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `artikel_pbn` (`id_pbn`, `judul_artikelpbn`, `deskripsi_artikelpbn`, `creator_artikelpbn`, `tanggalbuat_artikelpbn`, `statusupload_artikelpbn`, `tanggalupload_artikelpbn`, `alamatweb_backlink`, `foto_artikelpbn`, `slug_in`, `slug_en`) VALUES (\'3\', \'inilah\', \'<p>bhjfh</p>\', \'nala\', \'2024-12-09T15:07\', \'Belum Diupload\', NULL, \'\', \'inilah_09122024080858.jpg\', \'inilah\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `artikel_pbn` (`id_pbn`, `judul_artikelpbn`, `deskripsi_artikelpbn`, `creator_artikelpbn`, `tanggalbuat_artikelpbn`, `statusupload_artikelpbn`, `tanggalupload_artikelpbn`, `alamatweb_backlink`, `foto_artikelpbn`, `slug_in`, `slug_en`) VALUES (\'3\', \'inilah\', \'<p>bhjfh</p>\', \'nala\', \'2024-12-09T15:07\', \'Belum Diupload\', NULL, \'\', \'inilah_09122024080858.jpg\', \'inilah\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `artikel_pbn` (`id_pbn`, `judul_artikelpbn`, `deskripsi_artikelpbn`, `creator_artikelpbn`, `tanggalbuat_artikelpbn`, `statusupload_artikelpbn`, `tanggalupload_artikelpbn`, `alamatweb_backlink`, `foto_artikelpbn`, `slug_in`, `slug_en`) VALUES (:id_pbn:, :judul_artikelpbn:, :deskripsi_artikelpbn:, :creator_artikelpbn:, :tanggalbuat_artikelpbn:, :statusupload_artikelpbn:, :tanggalupload_artikelpbn:, :alamatweb_backlink:, :foto_artikelpbn:, :slug_in:, :slug_en:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\admin\ArtikelPBN.php(139): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\ArtikelPBN->proses_tambah()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ArtikelPBN))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\WINDOWS\\OneDrive\\Documents\\GitHub\\Web_Elecomps\\public\\index.php')
+INFO - 2024-12-09 08:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:10:48 --> CSRF token verified.
+INFO - 2024-12-09 08:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 08:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 09:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 09:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

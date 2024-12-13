@@ -17,18 +17,26 @@ class PBN extends BaseController
     }
 
     public function index()
-    {
-        if (!session()->get('logged_in')) {
-            return redirect()->to(base_url('login'));
-        }
-
-        $data = [
-            'pbn' => $this->pbnModel->findAll(),
-            'emailModel' => new EmailPbnModel() // Kirimkan model email ke view
-        ];
-
-        return view('admin/pbn/index', $data);
+{
+    // Cek apakah user sudah login
+    if (!session()->get('logged_in')) {
+        return redirect()->to(base_url('login'));
     }
+
+    // Inisialisasi model
+    $pbnModel = new \App\Models\PBNModel();
+    $emailModel = new \App\Models\EmailPbnModel(); // Pastikan EmailPbnModel sudah dibuat
+
+    // Siapkan data untuk dikirim ke view
+    $data = [
+        'pbn' => $pbnModel->paginate(10), // Pagination: 10 data per halaman
+        'pager' => $pbnModel->pager,      // Mengambil instance pager untuk pagination
+        'emailModel' => $emailModel       // Kirimkan model email ke view
+    ];
+
+    // Tampilkan view dengan data
+    return view('admin/pbn/index', $data);
+}
 
     public function tambah()
     {

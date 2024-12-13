@@ -132,7 +132,6 @@ class ArtikelPBN extends BaseController
                 'alamatweb_backlink' => $alamatweb_backlink,
                 'foto_artikelpbn' => $newFileName,
                 'slug_in' => $this->generateSlug($judul_artikelpbn),
-                'slug_en' => $this->generateSlug($this->request->getVar('judul_artikelpbn_en')),
             ];
 
             // Insert ke database

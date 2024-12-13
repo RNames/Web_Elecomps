@@ -35,10 +35,10 @@
 
                                 <tbody>
                                     <?php foreach ($pbn as $data) :
-                                       $emailData = $emailModel->find($data->id_emailpbn); 
-                                       ?>
-                                           <tr>
-                                               <td class="text-center"><?= $emailData ? $emailData->alamat_emailpbn : 'Email tidak ditemukan' ?></td> <!-- Tampilkan alamat email -->
+                                        $emailData = $emailModel->find($data->id_emailpbn);
+                                    ?>
+                                        <tr>
+                                            <td class="text-center"><?= $emailData ? $emailData->alamat_emailpbn : 'Email tidak ditemukan' ?></td>
                                             <td class="text-center"><?= $data->creator_pbn ?></td>
                                             <td class="text-center"><?= $data->tanggalbuat_pbn ?></td>
                                             <td class="text-center"><?= $data->alamat_pbn ?></td>
@@ -56,6 +56,15 @@
                                 </tbody>
                             </table>
                         </div><!--//table-responsive-->
+                        <div class="d-flex justify-content-center mt-3">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <!-- Menampilkan links pagination -->
+                                    <?= $pager->links() ?>
+                                </ul>
+                            </nav>
+                        </div>
+
                     </div><!--//app-card-body-->
                 </div><!--//app-card-->
             </div><!--//tab-pane-->

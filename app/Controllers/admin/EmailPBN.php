@@ -14,17 +14,28 @@ class EmailPBN extends BaseController
     }
 
     public function index()
-    {
-        if (!session()->get('logged_in')) {
-            return redirect()->to(base_url('login'));
-        }
-
-        $data = [
-            'emails' => $this->emailPbnModel->findAll(),
-        ];
-
-        return view('admin/emailpbn/index', $data);
+{
+    if (!session()->get('logged_in')) {
+        return redirect()->to(base_url('login'));
     }
+
+    // Konfigurasi pagination
+    $perPage = 10; // Jumlah data per halaman
+    $currentPage = $this->request->getVar('page') ?? 1; // Ambil halaman saat ini
+
+    // Ambil data dengan paginate
+    $emails = $this->emailPbnModel
+        ->orderBy('id_emailpbn', 'DESC') // Urutkan jika diperlukan
+        ->paginate($perPage);
+
+    $data = [
+        'emails' => $emails,
+        'pager' => $this->emailPbnModel->pager, // Pager untuk pagination
+        'currentPage' => $currentPage,
+    ];
+
+    return view('admin/emailpbn/index', $data);
+}
 
     public function tambah()
     {

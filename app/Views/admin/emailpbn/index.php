@@ -53,6 +53,15 @@
                                 </tbody>
                             </table>
                         </div><!--//table-responsive-->
+                        <!-- Pagination -->
+                        <div class="d-flex justify-content-center mt-3">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <?= $pager->links() ?>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- //Pagination -->
                     </div><!--//app-card-body-->
                 </div><!--//app-card-->
             </div><!--//tab-pane-->
